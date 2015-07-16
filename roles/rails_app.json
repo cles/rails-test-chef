@@ -1,0 +1,7 @@
+{
+  "name": "app",
+  "description": "A role to configure our rails app servers",
+  "run_list": [
+    "recipe[rails-test-chef]"
+  ]
+}

@@ -1,0 +1,9 @@
+<%= @rails_env %>:
+  adapter: <%= @db_info['adapter'] %>
+  host: <%= @db_info['host'] %>
+  username: <%= @db_info['username'] %>
+  password: <%= @db_pass %>
+  pool: 20
+  timeout: 5000
+  database: <%= @db_name %>
+  encoding: utf8
